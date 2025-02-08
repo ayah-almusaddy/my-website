@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: monospace;
+    line-height: 1.5;
+    background-color: #FFFF;
+    color: #331c1a;
+}
+
+p {font-size: 125%;}
+h1 {font-size: 200%;}
+h2 {font-size: 145%;}
+h3 {font-size: 140%;}
+h4 {font-size: 135%;}
+h5 {font-size: 130%}
+
+a {color: #331c1a;}
+
+
+.topnav {
+    background-color: #331c1a;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* style the links inside the nav bar */
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+/* change the color of the links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #472825;
+    color: white;
+}
+
+/* Home page quote */
+.home_quote {
+    background-color: #331c1a;
+    padding: 150px 150px;
+    color: ghostwhite;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #331c1a;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.resize-image {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+}
+
+.page-break {
+    width: 100%;
+    height: 2px;
+    background-color: #331c1a;
+    margin: 20px 0;
+}
+
+.latest-articles {
+    padding: 50px 150px;
+    background-color: #f9f9f9;
+    color: #331c1a;
+}
+
+.latest-articles h1 {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* Articles Page */
+.articles-page {
+    padding: 50px 150px;
+    color: #331c1a;
+}
+
+.articles-page h1 {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between articles */
+}
+
+.article-preview {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-preview:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.article-preview a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.article-info {
+    flex: 1;
+}
+
+.article-info h3 {
+    font-size: 145%;
+    margin: 0 0 10px 0;
+}
+
+.article-info p {
+    font-size: 110%;
+    margin: 0;
+    color: #555;
+}
+

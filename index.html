@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Blog</title>
-        <!-- Link to the external CSS file -->
-        <link rel="stylesheet" href="style.css">
+        <title>Ayah's Website</title>
+        <link rel="stylesheet" href="my_styles.css">
     </head>
 
     <body>
-        <header>
-            <h1>Welcome to My Blog</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <!--<li><a href="contact.html">Contact</a></li>
-                    <li><a href="book_reviews.html">Book Reviews</a></li>
-                    <li><a href="research_critiques.html">Research Critiques</a></li> -->
-                </ul>
-            </nav>
-        </header>
-        <!-- Content for your index.html page goes here -->
+        <div class = "topnav">
+            <a class="active" href="index.html">HOME</a>
+            <a href="articles.html">ARTICLES</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+
+        <div class = "home_quote">
+            <h1>Quote of the Day</h1>
+            <h2>"The best way to become acquainted with a subject is to write about it."</h2>
+            <h3 style="text-align:center;">-Benjamin Disraeli</h3>
+        </div>
+
+        <!-- Latest Articles Section -->
+        <div class="latest-articles">
+            <h1>Latest Articles</h1>
+            <div class="article-preview">
+                <a href="articles/article1.html">
+                    <img src="articles/article1.png" alt="Article 1 Image" class="article-image">
+                    <div class="article-info">
+                        <h3>Taking Every Single MBTI Test So You Don't Have To</h3>
+                        <p>description here </p>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2025 Ayah Almusaddy. All rights reserved.</p>
+        </footer>
     </body>
+    
 </html>
