@@ -160,3 +160,21 @@ a {color: #331c1a;}
     color: #555;
 }
 
+/* Center the article header */
+.article-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.article-header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.article-header .article-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
